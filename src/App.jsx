@@ -193,13 +193,65 @@ function App() {
                     <h2 className="linear-gradient-text-color">Drop you message</h2>
                 </div>
 
-                <div className="contact-form">
-                    <img src="./src/assets/Images/contact-us-form.png" alt="Contact Us Form Image" />
+                <div className="contact-wrapper">
+                    <div className="contact-info linear-gradient-background-color">
+                        <h3>📍 Contact Us</h3>
+                        <div className="info-item">
+                            <span className="emoji">🏢</span>
+                            <p>Dakahlia - Mansoura</p>
+                        </div>
+                        <div className="info-item">
+                            <span className="emoji">✉️</span>
+                            <p>Mostafa@gamil.com</p>
+                        </div>
+                        <div className="info-item">
+                            <span className="emoji">📞</span>
+                            <p>+20 01212282246</p>
+                        </div>
+                        <div className="info-item">
+                            <span className="emoji">📞</span>
+                            <p>+20 01556965665</p>
+                        </div>
+                    </div>
+                    <div className="contact-form">
+                        <h3>Get in Touch</h3>
+                        <p>We'd love to hear from you! Send us a message and we’ll respond asap.</p>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required />
+                            </div>
+                            <div className="form-group">
+                                <textarea placeholder="Typing your message here ......"></textarea>
+                            </div>
+                            <button type="submit" className="linear-gradient-background-color">
+                                Send
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </section>
 
             <footer className="linear-gradient-background-color">
-                <img src="./src/assets/Images/footer.png" alt="Footer Image" />
+                <div className="footer-content">
+                    <div className="footer-col">
+                        <h4>wonder</h4>
+                        <p>✨ Follow us</p>
+                        <p>📞 call us: 01228246278</p>
+                        <p>📱 Sponsored Developer Career</p>
+                    </div>
+                    <div className="footer-col">
+                        <h4>Contact</h4>
+                        <p>📞 +20 01228246278</p>
+                        <p>📧 wonder@agency.com</p>
+                    </div>
+                </div>
+                <div className="footer-bottom">
+                    <span>Copyright wonder. All Rights Reserved ©</span>
+                    <span>Designed by Developer Career Team.</span>
+                </div>
             </footer>
         </>
     );
